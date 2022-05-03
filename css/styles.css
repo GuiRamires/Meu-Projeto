@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 60px;
+  display: flex;
+}
+
+main {
+  margin: 0 auto;
+  width: 980px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+#redes ul {
+  list-style: none;
+}
+
+#redes ul li {
+  display: inline-block;
+  margin-left: 20px;
+  padding: 5px;
+  padding-top: 20px;
+}
+
+nav {
+  background-color: rgb(244, 248, 255);
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  
+}
+
+nav ul li {
+  height: 60px;
+  padding: 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+nav ul li a:hover { 
+  
+    color: rgb(0, 43, 173);
+}
+
+nav ul li:hover{
+    background-color: rgb(236, 241, 255);
+}
