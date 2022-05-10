@@ -110,6 +110,17 @@ h3 {
   font-weight: bold;
 }
 
+.textobem {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+.texto {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+
 
 /*  aba de coloraçao dos nomes das cores do celular  */
 
@@ -189,3 +200,8 @@ h3 {
   margin-top: 2px;
 }
 /*  fim da cor do preço  */
+
+
+.endereço {
+  text-align: center;
+}
